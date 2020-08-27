@@ -1,0 +1,20 @@
+
+#1.1
+ho = int(input("Họ_Của_Bạn: "))
+ten = int(input("Tên_Của_Bạn: "))
+print("Hi", a, b)
+
+#1.2
+UserInput = int(input("write something: "))
+print(UserInput.upper)
+
+#1.3
+a = int(input("Viết một số bất kì: "))
+b = a**2
+print("Bình phương của", a, "là", b)
+
+#1.4
+from turtle import *
+bán_kính = int(input("vẽ hình tròn có bán kính: "))
+circle(bán_kính)
+mainloop()
