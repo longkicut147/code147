@@ -24,3 +24,9 @@ elif a == 1:
 
 
 #2.4
+from turtle import *
+a = int(input("số cạnh đa giác: "))
+for i in range(0, a+1):
+    forward(100)
+    left(120)
+mainloop()

@@ -1,4 +1,4 @@
-from turtle import *
+
 # UserInput = input("write something: ")
 # print(UserInput.upper())
 
@@ -61,6 +61,31 @@ from turtle import *
 # else:
 #     print("Không có tháng", UserInput)
 
-bán_kính = int(input("vẽ hình tròn có bán kính: "))
-circle(bán_kính)
-mainloop()
+# bán_kính = int(input("vẽ hình tròn có bán kính: "))
+# circle(bán_kính)
+# mainloop()
+
+# from turtle import *
+# a = int(input("số cạnh đa giác: "))
+# for i in range(0, a+1):
+#     forward(100)
+#     left(120)
+# mainloop()
+
+while True:
+    email = input("Enter your email: ")
+    username = input("Enter your name: ")
+    password = input("Enter your password: ")
+    password2 = input("Enter your password again: ")
+    i = range(0, 10)
+    if "@gmail" and "i" in email:
+        if len(email) >= 8:
+            if password2 == password:
+                print("OK")
+                break
+            else:
+                print("wrong password")
+        else:
+            print("invalid email, not long enough")
+    else:
+        print("invalid email")
