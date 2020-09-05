@@ -46,8 +46,6 @@ else:
     S4 = (p * (p-a) * (p-b) * (p-c)) **1/2
     print(S4)
 
-print("du ma tu tinh di hoi hoi cl")
-
 
 books = ["Harry Potter", "su tich cay khe", "Thach Sanh"] 
 while True:
