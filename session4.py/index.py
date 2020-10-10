@@ -1,4 +1,3 @@
-
 a = 20
 b = int(input("nhap 1 so bat ki: "))
 if b > a:
@@ -57,4 +56,3 @@ while True:
 
 # for i in [1, 0]:
 #     print(i + 1)
-

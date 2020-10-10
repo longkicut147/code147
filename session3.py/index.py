@@ -37,6 +37,3 @@ N = int(input("nhap so N: "))
 for i in range(1, N, 1):
     N = N + i
 print(N)
-
-
-

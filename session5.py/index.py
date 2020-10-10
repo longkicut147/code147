@@ -1,4 +1,3 @@
-
 # UserInput = input("write something: ")
 # print(UserInput.upper())
 
@@ -72,20 +71,20 @@
 #     left(120)
 # mainloop()
 
-while True:
-    email = input("Enter your email: ")
-    username = input("Enter your name: ")
-    password = input("Enter your password: ")
-    password2 = input("Enter your password again: ")
-    i = range(0, 10)
-    if "@gmail" and "i" in email:
-        if len(email) >= 8:
-            if password2 == password:
-                print("OK")
-                break
-            else:
-                print("wrong password")
-        else:
-            print("invalid email, not long enough")
-    else:
-        print("invalid email")
+# while True:
+#     email = input("Enter your email: ")
+#     username = input("Enter your name: ")
+#     password = input("Enter your password: ")
+#     password2 = input("Enter your password again: ")
+#     i = range(0, 10)
+#     if "@gmail" and "i" in email:
+#         if len(email) >= 8:
+#             if password2 == password:
+#                 print("OK")
+#                 break
+#             else:
+#                 print("wrong password")
+#         else:
+#             print("invalid email, not long enough")
+#     else:
+#         print("invalid email")
