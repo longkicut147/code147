@@ -11,7 +11,10 @@ print(computer)
 print("So luong macbook co trong kho la: ", computer["MACBOOK"])
 
 #1.3
-userInput = input("nhap hang may tinh: ")
-print("So luong may trong kho la: ", computer[userInput])
-
+a = input("nhap hang may tinh: ")
+userInput = a.upper()
+if userInput in computer:
+    print("So luong may trong kho la: ", computer[userInput])
+else: 
+    print("deo co")
 
